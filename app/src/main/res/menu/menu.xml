@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Novo"
+        android:icon="@drawable/baseline_fiber_new"
+        android:id="@+id/mNovo"
+        app:showAsAction="ifRoom"/>
+<item
+        android:title="Cadastrar"
+        android:icon="@drawable/baseline_person_add"
+        android:id="@+id/mCadastro"
+        app:showAsAction="ifRoom"/>
+<item
+        android:title="alterar"
+        android:icon="@drawable/baseline_switch_account"
+        android:id="@+id/mAlterar"
+        app:showAsAction="ifRoom"/>
+<item
+        android:title="Excluir"
+        android:icon="@drawable/baseline_delete"
+        android:id="@+id/mExcluir"
+        app:showAsAction="ifRoom"/>
+<item
+        android:title="Buscar"
+        android:icon="@drawable/baseline_search"
+        android:id="@+id/mBuscar"
+        app:showAsAction="ifRoom"/>
+
+</menu>
